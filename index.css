@@ -14,6 +14,7 @@ body {
   width: 1px;
   height: 1px;
   position: absolute;
+  z-index: -1;
   background: white;
   box-shadow: 2vw 5vh 2px white, 10vw 8vh 2px white, 15vw 15vh 1px white,
     22vw 22vh 1px white, 28vw 12vh 2px white, 32vw 32vh 1px white,
@@ -33,6 +34,7 @@ body {
 
 .shooting-star {
   position: absolute;
+  z-index: -1;
   width: 100px;
   height: 2px;
   background: linear-gradient(90deg, transparent, white);
