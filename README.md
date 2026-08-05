@@ -16,13 +16,14 @@ Versione web del mio curriculum: profilo professionale, competenze, esperienze l
 ## Struttura del progetto
 
 ```
-index.html   # Pagina del CV
-index.css    # Fogli di stile (sfondo animato a tema notte/stelle)
+index.html      # Pagina del CV
+css/
+  style.css    # Fogli di stile (sfondo animato a tema notte/stelle)
 img/
-  CV.jpg     # Foto per il CV
-  GH.JPG     # Foto
-  cvv.JPG    # Foto
-  cvvv.JPG   # Foto
+  CV.jpg       # Foto per il CV
+  GH.JPG       # Foto
+  cvv.JPG      # Foto
+  cvvv.JPG     # Foto
 ```
 
 ## Come avviarlo in locale
