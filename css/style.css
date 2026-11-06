@@ -268,3 +268,8 @@ h5{
   width: 100%;                 /* occupa tutta la larghezza disponibile */
 }
 
+
+.punto a{
+  color: white;
+  text-decoration: underline;
+}

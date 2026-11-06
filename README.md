@@ -8,9 +8,10 @@ Web version of my resume: professional profile, skills, work experience, educati
 
 - Professional profile
 - Career goals
-- Skills and languages
+- Current studies, technical skills and projects
+- Languages
 - Licenses and certifications
-- Work experience
+- Work experience and retail skills
 - Education
 - Contact details (phone, email, LinkedIn)
 
