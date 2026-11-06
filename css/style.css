@@ -269,11 +269,109 @@ h5{
 }
 
 
+
+/* Shared layout grid: photos and text use the same width and side margins */
+.GH{
+  font-size: clamp(44px, 8vw, 100px);
+  padding: 8px 16px 0;
+}
+.ruolo{
+  font-size: clamp(14px, 2vw, 22px);
+  margin: 0 0 24px;
+  padding: 0 16px;
+}
+.foto-container,
+.cv-section{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32px;
+}
+.foto-container{
+  gap: 24px;
+}
+.ME{
+  flex: 1 1 0;
+  min-width: 0;
+  width: auto;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin: 0;
+}
+.foto-container br{
+  display: none;
+}
+.cv-text{
+  width: 100%;
+}
+.cv-text br{
+  display: none;
+}
+
+/* Consistent spacing between sections */
+h3{
+  margin-top: 28px;
+  margin-bottom: 6px;
+}
+.container{
+  gap: 48px;
+}
+.colonna{
+  min-width: 0;
+}
+.colonna p{
+  font-size: 15px;
+}
+
+/* Everything aligned left, with wrapped lines lined up with the text */
+.punto{
+  list-style-position: outside;
+  margin-left: 18px;
+  margin-bottom: 2px;
+}
+h5{
+  text-align: left;
+  font-size: 14px;
+  margin-top: 14px;
+}
+.Titolare + .Titolare{
+  margin-top: 0;
+  margin-bottom: 4px;
+}
 .punto a{
   color: white;
   text-decoration: underline;
 }
+.contatti{
+  margin: 32px auto;
+  padding: 0 16px;
+}
 
-.cv-section{
-  padding: 0 32px;
+/* Phones and small tablets */
+@media (max-width: 800px){
+  .foto-container,
+  .cv-section{
+    padding: 0 16px;
+  }
+  .foto-container{
+    gap: 8px;
+  }
+  .ME{
+    border-radius: 40px 0 40px 0;
+  }
+  .container{
+    flex-direction: column;
+    gap: 0;
+  }
+  .colonna{
+    width: 100%;
+    flex: none;
+  }
+  .TX{
+    font-size: 17px;
+  }
+  .ruolo{
+    letter-spacing: 2px;
+  }
 }
