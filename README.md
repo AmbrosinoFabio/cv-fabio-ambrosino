@@ -22,7 +22,7 @@ index.html      # Resume page
 css/
   style.css    # Stylesheet (animated night/stars background)
 img/
-  CV.jpg       # Resume photo
+  CV.jpg       # Resume photo (kept in the repository, not shown on the page)
   GH.JPG       # Photo
   cvv.JPG      # Photo
   cvvv.JPG     # Photo

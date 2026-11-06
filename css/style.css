@@ -273,3 +273,7 @@ h5{
   color: white;
   text-decoration: underline;
 }
+
+.cv-section{
+  padding: 0 32px;
+}
