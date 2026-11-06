@@ -7,6 +7,7 @@ Web version of my resume: professional profile, skills, work experience, educati
 ## Contents
 
 - Professional profile
+- Career goals
 - Skills and languages
 - Licenses and certifications
 - Work experience
