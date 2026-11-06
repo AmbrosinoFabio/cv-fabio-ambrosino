@@ -1,55 +1,55 @@
 # 📄 CV — Fabio Ambrosino
 
-Versione web del mio curriculum: profilo professionale, competenze, esperienze lavorative, formazione e contatti. HTML e CSS puro, nessuna dipendenza.
+Web version of my resume: professional profile, skills, work experience, education and contact details. Plain HTML and CSS, no dependencies.
 
-**Demo live:** https://ambrosinofabio.github.io/cv-fabio-ambrosino/index.html
+**Live demo:** https://ambrosinofabio.github.io/cv-fabio-ambrosino/index.html
 
-## Contenuto
+## Contents
 
-- Profilo professionale
-- Competenze e lingue
-- Abilitazioni e certificazioni
-- Esperienza lavorativa
-- Formazione
-- Contatti (telefono, email, LinkedIn)
+- Professional profile
+- Skills and languages
+- Licenses and certifications
+- Work experience
+- Education
+- Contact details (phone, email, LinkedIn)
 
-## Struttura del progetto
+## Project structure
 
 ```
-index.html      # Pagina del CV
+index.html      # Resume page
 css/
-  style.css    # Fogli di stile (sfondo animato a tema notte/stelle)
+  style.css    # Stylesheet (animated night/stars background)
 img/
-  CV.jpg       # Foto per il CV
-  GH.JPG       # Foto
-  cvv.JPG      # Foto
-  cvvv.JPG     # Foto
+  CV.jpg       # Resume photo
+  GH.JPG       # Photo
+  cvv.JPG      # Photo
+  cvvv.JPG     # Photo
 ```
 
-## Come avviarlo in locale
+## Running locally
 
-Il progetto non richiede build né installazione di pacchetti: nessuna dipendenza esterna, funziona anche offline.
+The project needs no build step or package installation: it has no external dependencies and also works offline.
 
-**Opzione 1 — apertura diretta**
-Apri `index.html` con un doppio click, o trascinalo nel browser.
+**Option 1 — open directly**
+Open `index.html` with a double click, or drag it into your browser.
 
-**Opzione 2 — server locale**
+**Option 2 — local server**
 ```bash
 git clone https://github.com/AmbrosinoFabio/cv-fabio-ambrosino.git
 cd cv-fabio-ambrosino
 python3 -m http.server 8000
 ```
-Poi apri `http://localhost:8000/index.html`.
+Then open `http://localhost:8000/index.html`.
 
-## Dipendenze
+## Dependencies
 
-Nessuna. Nessuna libreria esterna, nessun font da CDN, nessuna chiamata di rete: tutto il necessario è nel repository.
+None. No external libraries, no CDN fonts, no network calls: everything needed is in the repository.
 
-## Tecnologie
+## Technologies
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-## Licenza
+## License
 
-Il codice è distribuito sotto licenza [MIT](LICENSE). Le foto e i contenuti testuali del CV restano di proprietà di Fabio Ambrosino.
+The code is released under the [MIT](LICENSE) license. The photos and text content of the resume remain the property of Fabio Ambrosino.
